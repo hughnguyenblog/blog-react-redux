@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import AllPost from './components/AllPost';
+
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<h1>This is nav</h1>
+			<h1>Blog</h1>
+			<h3>Use React, Redux, React-router, Redux-thunk</h3>
+			<hr />
+			<AllPost />
+		</div>
+	);
 }
 
 export default App;
